@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+header .logo img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.team {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.member {
+  margin: 20px;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #000000;
+  object-fit: cover;
+}
+
+.member h2 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.crew .member-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
